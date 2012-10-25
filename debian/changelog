@@ -1,0 +1,5 @@
+python-django-social-auth (0.7.7) unstable; urgency=low
+
+  * Initial commit;
+
+ -- Anton Volozhanin <zzzombat@gmail.com>  Tue, 31 Jul 2012 15:11:57 +0400

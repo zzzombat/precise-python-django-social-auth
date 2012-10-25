@@ -1,0 +1,41 @@
+Package: python-django-social-auth
+Version: 0.7.7
+Architecture: all
+Maintainer: Alex Dvoretsky (hh.ru project package signing) <alex@dvoretsky.name>
+Installed-Size: 280
+Depends: python (<< 2.8), python (>= 2.6.5), python-support (>= 0.90.0), python-django (>= 1.4.1), python-pkg-resources
+Provides: python2.7-django-social-auth
+Section: python
+Priority: optional
+Homepage: http://pypi.python.org/pypi/django-social-auth
+Description: Django social authentication made simple
+ Django Social Auth is an easy to setup social authentication/authorization
+ mechanism for Django projects.
+ .
+ This application provides user registration and login using social sites
+ credentials, some features are:
+ .
+  * Registration and Login using social sites using the following providers:
+     - Google OpenID
+     - Google OAuth
+     - Google OAuth2
+     - Yahoo OpenID
+     - OpenId like myOpenID
+     - Twitter OAuth
+     - Facebook OAuth
+ .
+  * Some contributions added support for:
+     - LiveJournal OpenID
+     - Orkut OAuth
+     - Linkedin OAuth
+     - Foursquare OAuth2
+     - GitHub OAuth
+     - Dropbox OAuth
+     - Flickr OAuth
+ .
+  * Basic user data population and signaling, to allows custom fields values
+    from providers response.
+ .
+  * Multiple social accounts association to single users.
+ .
+  * Custom User model override if needed (auth.User by default).
